@@ -1,5 +1,7 @@
 puts "🤠 Seeding toys..."
 
+Toy.destroy_all
+
 Toy.create([
   {
     name: "Woody",
